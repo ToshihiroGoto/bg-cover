@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>Bacground-size: cover for IE8</title>
+  
+  <style>
+    body,div,h1,p{
+      margin: 0;
+      padding: 0;
+    }
+
+    h1{
+      color: white;
+      padding: 16px;
+    }
+
+    #header{
+      width: 100%;
+      height: 240px;
+      background-image: url("http://toshihirogoto.github.io/ConditionalRules/bg.jpg");
+      background-size: cover;
+      behavior: url(backgroundsize.min.htc);
+    }
+
+    #content{
+    }
+
+    #content div{
+      width: 25%;
+      margin: 4%;
+      display: block;
+      float:left;
+    }
+
+    #content .title{
+      font-size: 1.1em;
+      font-weight: bold;
+      margin-bottom: 16px;
+    }
+  </style>
+
+</head>
+<body>
+  <div>
+    <div id="header">
+      <div id="header_inner">
+        <h1>とーきょーたわー</h1>
+      </div>
+    </div>
+    <div id="content">
+      <div>
+        <p class="title">Tower of Tokyo</p>
+        <p>Tokyo Tower (東京タワー Tōkyō tawā?) is a communications and observation tower located in the Shiba-koen district of Minato, Tokyo, Japan. At 333 metres (1,093 ft), it is the second-tallest structure in Japan. The structure is an Eiffel Tower-inspired lattice tower that is painted white and international orange to comply with air safety regulations.</p>
+      </div>
+      <div>
+        <p class="title">Tower of Tokyo</p>
+        <p>Built in 1958, the tower's main sources of revenue are tourism and antenna leasing. Over 150 million people have visited the tower since its opening. FootTown, a four-story building located directly under the tower, houses museums, restaurants and shops. Departing from there, guests can visit two observation decks. The two-story Main Observatory is located at 150 metres (490 ft), while the smaller Special Observatory reaches a height of 250 metres (820 ft).</p>
+      </div> 
+      <div>
+        <p class="title">Tower of Tokyo</p>
+        <p>The tower acts as a support structure for an antenna. Originally intended for television broadcasting, radio antennas were installed in 1961, but the tower is now used to broadcast signals for Japanese media outlets such as NHK, TBS and Fuji TV. Japan's planned digital television transition by July 2011 was problematic, however; Tokyo Tower's height (333 meters) was not high enough to adequately support complete terrestrial digital broadcasting to the area. A taller digital broadcasting tower, known as Tokyo Skytree, was completed on February 29, 2012.</p>
+      </div> 
+    </div>
+  </div>
+</body>
+</html>
